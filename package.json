@@ -1,0 +1,37 @@
+{
+  "name": "javaboxes",
+  "version": "1.0.0",
+  "description": "Install templates and adjust content instantly.",
+  "main": "index.js",
+  "bin": {
+    "jb": "bin/jb.js"
+  },
+  "pkg": {
+    "scripts": "/bin/**",
+    "outputPath": "build",
+    "targets": [
+      "latest-macos-x64",
+      "latest-win-x64",
+      "latest-linux-x64"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["templates"],
+  "author": "Grayseon",
+  "license": "ISC",
+  "bugs": {
+    "url" : "https://github.com/Grayseon/JavaBoxesTemplates/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Grayseon/JavaBoxesTemplates"
+  },
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "download-git-repo": "^3.0.2",
+    "eval": "^0.1.8",
+    "fast-glob": "^3.2.12"
+  }
+}
